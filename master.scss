@@ -1,11 +1,11 @@
-@import "./variables";
-@import "./functions";
+@use './variables';
+@use './functions';
 
 body {
 
-    @include color($redder);
+    @include functions.color(variables.$redder);
 }
 
 .test {
-    @include change_font_size($super_large);
+    @include functions.change_font_size(variables.$super_large);
 }
