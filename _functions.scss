@@ -3,8 +3,29 @@
 
 @mixin color($color){
     background-color: $color;
+
 } 
 
 @mixin change_font_size($font) {
     font-size: $font;
 }
+
+@mixin change_font_style($fontstyle) {
+    font-style: $fontstyle;
+}
+
+@mixin change_color($red){
+    background-color: $red;
+}
+
+@mixin font_color($white) {
+    color: $white;
+ }
+
+ @mixin menu_color($purple) {
+     color: $purple;
+ }
+
+ @mixin change_color_shadow ($shadow_color) {
+     color: $shadow_color;
+ }

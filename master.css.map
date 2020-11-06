@@ -1,11 +1,8 @@
 {
     "version": 3,
-    "mappings": "AAGA,AAAA,IAAI,CAAC;EECD,gBAAgB,EDFV,OAAc;CDIvB;;AAED,AAAA,KAAK,CAAC;EEAF,SAAS,EDLC,KAAK;CDOlB",
+    "mappings": "AAAA;;;;;;;;;;;;;;;;EAgBE;AAOF,AAAA,IAAI,CAAC;EAFD,gBAAgB,EAHZ,GAAG;CAOV",
     "sources": [
-        "master.scss",
-        "_variables.scss",
-        "_functions.scss",
-        "_variables.scss"
+        "master.scss"
     ],
     "names": [],
     "file": "master.css"
